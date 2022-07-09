@@ -1,0 +1,16 @@
+{
+  "name": "pw_man",
+  "version": "0.0.0",
+  "scripts": {
+    "build:firefox": "web-ext build",
+    "start:firefox": "web-ext run --source-dir ."
+  },
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.1.2",
+    "sinon-chrome": "^2.1.2",
+    "web-ext": "^1.6.0"
+  }
+}

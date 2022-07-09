@@ -1,0 +1,7 @@
+{
+  "name": "pw_man",
+  "description": "Password manager",
+  "path": "C:\\Users\\fanda\\OneDrive\\pw_man_win.bat",
+  "type": "stdio",
+  "allowed_extensions": [ "pw-mgr@example.com" ]
+}

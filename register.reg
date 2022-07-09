@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\NativeMessagingHosts\pw_man]
+@="C:\\Users\\fanda\\Desktop\\ws\\pw_man_extension\\pwmanager\\app\\pw_man.json"
+

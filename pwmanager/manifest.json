@@ -1,0 +1,32 @@
+{
+
+  "manifest_version": 2,
+  "name": "Password manager",
+  "version": "1.2",
+
+  "description": "Allows prefill of login forms",
+  "icons": {
+    "48": "icons/lock-48.png"
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "activeTab",
+    "nativeMessaging"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/lock-32.png"
+    },
+    "default_title": "Password manager",
+    "default_popup": "popup/pw-mgr.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pw-mgr@example.com"
+    }
+  }
+}
