@@ -68,10 +68,14 @@ port.onMessage.addListener((response) => {
                           }
                       }
                       if (loginField) {
-                          loginField.value = login;
+                        loginField.focus();
+                        document.execCommand('insertText', false, login);
+                        loginField.dispatchEvent(new Event('change', {bubbles: true}));
                       }
                       if (pwField && password) {
-                          pwField.value = password;
+                          pwField.focus();
+                          document.execCommand('insertText', false, password);
+                          pwField.dispatchEvent(new Event('change', {bubbles: true}));
                       }
                   } catch (err) {
                       console.log(err);
